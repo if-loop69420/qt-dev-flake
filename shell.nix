@@ -3,7 +3,7 @@ with pkgs;
 mkShell {
   buildInputs = [ 
     qt6.full
-    qtcreator
+    qtcreator-qt6
     cmake
     vscode
     vscodium
